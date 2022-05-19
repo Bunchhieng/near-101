@@ -6,5 +6,8 @@
   "license": "MIT",
   "devDependencies": {
     "near-sdk-as": "^3.2.3"
+  },
+  "scripts": {
+    "deploy": "near deploy --accountId=mycontract.satoshibun.testnet --wasmFile=build/release/near-marketplace-contract.wasm"
   }
 }
